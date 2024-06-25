@@ -6,10 +6,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #f5f5f5;
 }
 
 .container {
@@ -62,7 +61,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('images/home-background.jpg');
+    background-image: url('images/home-background.jpg'); /* Replace with your own image */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -119,6 +118,10 @@ header {
 .service h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1.1rem;
 }
 
 /* Contact section styles */
